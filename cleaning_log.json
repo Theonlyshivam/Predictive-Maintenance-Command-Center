@@ -1,0 +1,16 @@
+{
+  "missing_values_total": 0,
+  "inconsistent_failure_rows": 27,
+  "range_checks_passed": {
+    "Air temperature [K]": true,
+    "Process temperature [K]": true,
+    "Rotational speed [rpm]": true,
+    "Torque [Nm]": true,
+    "Tool wear [min]": true
+  },
+  "dropped_columns": [
+    "UDI",
+    "Product ID"
+  ],
+  "rows_after_cleaning": 10000
+}

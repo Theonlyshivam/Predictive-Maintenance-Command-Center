@@ -1,0 +1,6 @@
+[
+  "Failed machines show noticeably higher torque and, in a large share of cases, higher tool wear than healthy machines, confirming both as strong failure signals.",
+  "A larger temperature differential (process minus air temperature) is associated with a higher chance of failure, consistent with Heat Dissipation Failure (HDF) requiring a small differential plus low rotational speed.",
+  "Overstrain Failure (OSF) is the most frequent failure type, followed by Heat Dissipation (HDF) and Power Failure (PWF); Random Failures (RNF) are rare as expected by design.",
+  "The correlation heatmap shows torque and tool wear correlate most strongly with Machine failure among the raw sensor features, while air/process temperature alone are weaker individual signals."
+]

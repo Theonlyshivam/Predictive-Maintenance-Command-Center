@@ -1,0 +1,117 @@
+{
+  "binary_comparison": [
+    {
+      "Model": "Logistic Regression",
+      "Accuracy": 0.8585,
+      "Precision": 0.1772,
+      "Recall": 0.8676,
+      "F1": 0.2943,
+      "ROC-AUC": 0.934
+    },
+    {
+      "Model": "Random Forest",
+      "Accuracy": 0.9875,
+      "Precision": 0.9388,
+      "Recall": 0.6765,
+      "F1": 0.7863,
+      "ROC-AUC": 0.9704
+    },
+    {
+      "Model": "XGBoost",
+      "Accuracy": 0.9855,
+      "Precision": 0.7671,
+      "Recall": 0.8235,
+      "F1": 0.7943,
+      "ROC-AUC": 0.9727
+    }
+  ],
+  "best_binary_model": "XGBoost",
+  "tuning_summary": {
+    "base_model": "XGBoost",
+    "best_params": {
+      "learning_rate": 0.1,
+      "max_depth": 6,
+      "n_estimators": 400
+    },
+    "tuned_f1": 0.8,
+    "untuned_f1": 0.7943
+  },
+  "multiclass_macro_f1": 0.5969154581294275,
+  "multiclass_report": [
+    {
+      "Class": "HDF",
+      "precision": 0.9583,
+      "recall": 1.0,
+      "f1-score": 0.9787,
+      "support": 23.0
+    },
+    {
+      "Class": "No Failure",
+      "precision": 0.9887,
+      "recall": 0.9995,
+      "f1-score": 0.9941,
+      "support": 1930.0
+    },
+    {
+      "Class": "OSF",
+      "precision": 1.0,
+      "recall": 0.4375,
+      "f1-score": 0.6087,
+      "support": 16.0
+    },
+    {
+      "Class": "PWF",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 18.0
+    },
+    {
+      "Class": "RNF",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    {
+      "Class": "TWF",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 9.0
+    },
+    {
+      "Class": "accuracy",
+      "precision": 0.9885,
+      "recall": 0.9885,
+      "f1-score": 0.9885,
+      "support": 0.9885
+    },
+    {
+      "Class": "macro avg",
+      "precision": 0.6578,
+      "recall": 0.5728,
+      "f1-score": 0.5969,
+      "support": 2000.0
+    },
+    {
+      "Class": "weighted avg",
+      "precision": 0.9821,
+      "recall": 0.9885,
+      "f1-score": 0.9844,
+      "support": 2000.0
+    }
+  ],
+  "failure_counts": {
+    "HDF": 115,
+    "OSF": 98,
+    "PWF": 95,
+    "TWF": 46,
+    "RNF": 1
+  },
+  "dataset_shape": [
+    10000,
+    14
+  ],
+  "failure_rate_pct": 3.39
+}
