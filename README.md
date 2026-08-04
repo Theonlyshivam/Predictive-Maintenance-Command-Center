@@ -1,4 +1,4 @@
-# AIML-Project9-Predictive-Maintenance-Industrial-Machines
+# AIML-Project9-Predictive-Maintenance-Industrial-Machines -->> https://predictive-maintenance-command-center.streamlit.app/
 
 ## 1. Problem Statement
 
@@ -86,12 +86,7 @@ An interactive control-room style dashboard (`app/app.py`):
 - **EDA Insights** — all exploratory visualizations with narrative insights
 - **Dataset** — raw data explorer
 
-Run locally:
-```bash
-cd app
-pip install -r requirements.txt
-streamlit run app.py
-```
+
 
 ## 11. Repository Structure
 
@@ -120,7 +115,7 @@ AIML-Project9-Predictive-Maintenance-Industrial-Machines/
 └── README.md
 ```
 
-## 12. Common Mistakes Avoided
+
 
 - Multi-class target built directly from the 5 flag columns (not from rows where `Machine failure == 0`), so "no failure" rows are labeled consistently.
 - Multi-class evaluation reports **per-class precision/recall/F1**, not just overall accuracy — important given the severe class imbalance.
